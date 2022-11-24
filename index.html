@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <section class="chat_section">
+        <div class="brand">
+            <img width="6%" src="./chat.png" alt="">
+            <h1>Let's Chat</h1>
+           
+         
+        
+            <img width="3%" class="moon" id="icon" src="/moon.png" onclick="changeImage(); myfunction()" alt="">
+            
+
+        </div>
+
+        <div class="message_area">
+
+            <!-- <input type="file" id="image_input"  accept="image/png">
+    
+            <div id="display_image"> </div> -->
+
+        </div>
+
+        <div class="user-input">
+            <textarea id="textarea" cols="30" rows="1" placeholder="write a message"></textarea>
+            <button onclick="sendMessage()" icon="btn">Send</button>
+        </div>
+
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js">
+     
+    </script>
+</body>
+
+</html>

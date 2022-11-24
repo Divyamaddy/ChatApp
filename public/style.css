@@ -1,0 +1,132 @@
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:#373B44;
+    /* background-color: black; */
+    font-family: 'Roboto','sans-serif';
+    overflow: hidden;
+  
+}
+
+
+/* ------for moon icon---- */
+#icon{
+    cursor: pointer;
+    margin-left: 38vw;
+    
+}
+
+.light-mode{
+    background-color: white;
+
+}
+
+
+/* --------------------------------------------- */
+
+.chat_section{
+    width: 800px;
+    box-shadow: 0 10px 15px -3px  black;
+    max-width: 90%;
+    background-color:white;
+}
+
+.brand{
+    padding: 20px;
+    background-color: #FBD786;
+    display: flex;
+    align-items: center;
+}
+
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+
+.message_area{
+    height: 400px;
+    /* padding: 5px; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+   
+}
+
+
+
+
+
+
+div.user-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+
+}
+
+textarea{
+    width: 100%;
+    /* border: px solid black; */
+    padding: 20px;
+    /* margin-left: 10px; */
+    font-size: 16px;
+    outline: none;
+    background-color:white;
+    border-radius: 10px;
+}
+
+
+button{
+    padding: 20px;
+    font-size: 16px;
+    background-color: #a8ff78;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
+
+}
+
+.message{
+    padding: 20px;
+  
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.message .outgoing{
+    background: #e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+
+
+
+.incoming{
+    background-color: #8f8beb;
+    color: white;
+}
+
+.outgoing{
+    background-color:#e9eafd;
+    color: #787986;
+    margin-left: auto;
+}
+
+.message h4{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
